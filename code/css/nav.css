@@ -1,0 +1,62 @@
+section,html,body{
+    height: 100%   
+}
+
+#about{
+    background-color: #7B88DD;
+    background-image: url(http://i.imgur.com/Rry13L6.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    
+}
+
+@media (min-width: 512px){
+    #about{
+        background-size: auto;   
+   }
+}
+
+#nav,#hi{
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Righteous', 'cursive';   
+}
+#hi{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center; 
+    float: left;
+}
+#ti{
+    transform-style: preserve-3d;
+    transform: rotate(-90deg);
+    color: red;
+    float: left;
+}
+#tit{
+    float: right;
+    color: white;
+    float: left;
+}
+
+#nav{
+    padding-top: 10%;
+    text-align: center;
+    padding: 20px;
+}
+#nav a{
+    padding: 0 40px;   
+}
+
+#exp{
+    background-color: #7F4596;
+    
+}
+#cont{
+    background-color: #D9403D
+}
+footer{
+    height: 200px;
+    background-color: #3C3D3D
+}
